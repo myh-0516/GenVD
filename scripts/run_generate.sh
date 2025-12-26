@@ -14,7 +14,7 @@ python $ROOT/src/RQ1/run.py \
     --batch_size=32 \
     --max_seq_length=512 \
     --learning_rate=6e-5 \
-    --num_epochs=15 \
+    --num_epochs=20 \
     --early_stop_threshold=3 \
     --weight_decay=0.01 \
     --max_code_words=450 \
