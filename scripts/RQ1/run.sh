@@ -27,7 +27,7 @@ for DATASET in "${DATASETS[@]}"; do
         echo "Running: Dataset=$DATASET | Mode=$MODE | Model=$MODEL"
         echo "========================================================="
         
-        python $ROOT/src/RQ1/run_balence_threshold.py \
+        python $ROOT/src/RQ1/run.py \
             --train_data_file="$ROOT/datasets/$DATASET/train.jsonl" \
             --eval_data_file="$ROOT/datasets/$DATASET/valid.jsonl" \
             --test_data_file="$ROOT/datasets/$DATASET/test.jsonl" \
