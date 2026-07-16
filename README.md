@@ -7,8 +7,7 @@ Pre-split train/val/test data: [Google Drive Download](https://drive.google.com/
 Extract to `datasets/<dataset_name>/` with `train.jsonl` / `valid.jsonl` / `test.jsonl`.
 
 ## Requirements
-```bash
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Usage
 - Python scripts: run from repository root
