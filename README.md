@@ -5,16 +5,16 @@ PyTorch implementation of *Rethinking Code Vulnerability Detection: A Generation
 
 ## Dataset
 Pre-split train/val/test data: [Google Drive Download](https://drive.google.com/file/d/1Bjs7GDz7GkVX1CQp6AHPs_ONedFfqQkY/view?usp=drive_link)  
-Extract to `datasets/<dataset_name>/` containing `train.jsonl`, `valid.jsonl`, `test.jsonl`.
+Extract to `datasets/<dataset_name>/` with `train.jsonl` / `valid.jsonl` / `test.jsonl`.
 
 ## Requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
-- Python scripts: execute from repository root
-- Shell scripts: execute from corresponding `scripts/RQ*/` directory
+## Usage
+- Python scripts: run from repository root
+- Shell scripts: run from corresponding `scripts/RQ*/` directory
 
 | RQ  | Entry | Task |
 |-----|-------|------|
@@ -22,10 +22,10 @@ pip install -r requirements.txt
 | RQ3 | `src/RQ3/run.py` | Cross-architecture experiments |
 | RQ4 | `src/RQ4/run.py` | CWE multi-class classification |
 | RQ5 | `src/RQ5/run.py` | Prompt & verbalizer analysis |
-| RQ6 | `src/RQ6/cka.py` `src/RQ6/PR_Calibration_curve.py` `src/RQ6/cost_radar.js` | Analysis & visualization |
+| RQ6 | `src/RQ6/cka.py`<br>`src/RQ6/PR_Calibration_curve.py`<br>`src/RQ6/cost_radar.js` | Analysis & visualization |
 
 ## Pretrained Models
-Place Hugging Face weights under `pretrained_models/`, e.g. `pretrained_models/codebert-base`.
+Place Hugging Face weights under `pretrained_models/` (e.g. `pretrained_models/codebert-base`).
 
 ## Output
 Results saved to `results/`.
