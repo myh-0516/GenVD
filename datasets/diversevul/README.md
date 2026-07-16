@@ -1,1 +1,1 @@
-hf download bstee615/diversevul --repo-type dataset --local-dir datasets/diversevul
+https://drive.google.com/file/d/12IWKhmLhq7qn5B_iXgn5YerOQtkH-6RG/view?usp=sharing
