@@ -1,4 +1,3 @@
-```markdown
 # GenVD
 
 PyTorch implementation of *Rethinking Code Vulnerability Detection: A Generation-Based Approach*.
@@ -10,7 +9,6 @@ Extract to `datasets/<dataset_name>/` with `train.jsonl` / `valid.jsonl` / `test
 ## Requirements
 ```bash
 pip install -r requirements.txt
-```
 
 ## Usage
 - Python scripts: run from repository root
