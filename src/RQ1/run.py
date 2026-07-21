@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument("--train_data_file", type=str, required=True)
     parser.add_argument("--eval_data_file", type=str, required=True)
     parser.add_argument("--test_data_file", type=str, required=True)
-    parser.add_argument("--max_code_words", type=int, default=400)
+    parser.add_argument("--max_code_words", type=int, default=512)
     parser.add_argument("--output_dir", type=str, default="results")
     parser.add_argument("--do_train", action="store_true")
     parser.add_argument("--do_eval", action="store_true")
