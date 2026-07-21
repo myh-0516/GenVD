@@ -41,7 +41,6 @@ for DATASET in "${DATASETS[@]}"; do
             --num_epochs=15 \
             --early_stop_threshold=3 \
             --weight_decay=0.01 \
-            --max_code_words=450 \
             --do_train \
             --do_eval \
             --do_test \
