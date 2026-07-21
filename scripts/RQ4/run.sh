@@ -2,7 +2,7 @@
 
 ROOT="../.."
 MODEL="codebert"
-DATASET="diversevul_cwe" # top10cwe diversevul_cwe
+DATASET="diversevul" # top10cwe diversevul_cwe
 
 python $ROOT/src/RQ4/run.py \
     --dataset="$DATASET" \
