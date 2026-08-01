@@ -10,19 +10,20 @@ Extract to `datasets/<dataset_name>/` with `train.jsonl` / `valid.jsonl` / `test
 `pip install -r requirements.txt`
 
 ## Usage
-- Python scripts: run from repository root
-- Shell scripts: run from corresponding `scripts/RQ*/` directory
+- Python scripts: run from the repository root
+- Shell scripts: run from the corresponding `a/RQ*/` directory
 
 | RQ  | Entry | Task |
 |-----|-------|------|
-| RQ1 | `src/RQ1/run.py` | Binary detection (generative vs. discriminative) |
-| RQ3 | `src/RQ3/run.py` | Cross-architecture experiments |
-| RQ4 | `src/RQ4/run.py` | CWE multi-class classification |
-| RQ5 | `src/RQ5/run.py` | Prompt & verbalizer analysis |
-| RQ6 | `src/RQ6/cka.py`<br>`src/RQ6/PR_Calibration_curve.py`<br>`src/RQ6/cost_radar.js` | Analysis & visualization |
+| RQ1 | `scripts/RQ1/run.sh` | Generative vs. discriminative vulnerability detection |
+| RQ2 | `scripts/RQ2/run.sh` | Comparison with vulnerability detection baselines |
+| RQ3 | `scripts/RQ3/run.sh` | Cross-architecture experiments |
+| RQ4 | `scripts/RQ4/run.sh` | Prompt, verbalizer, and imbalance-handling analysis |
+| RQ5 | `scripts/RQ5/run.sh` | Representation, prediction, and efficiency analysis |
 
 ## Pretrained Models
-Place Hugging Face weights under `pretrained_models/` (e.g. `pretrained_models/codebert-base`).
+Place Hugging Face weights under `pretrained_models/`  
+(e.g., `pretrained_models/codebert-base`).
 
 ## Output
-Results saved to `results/`.
+Results are saved to `results/`.
